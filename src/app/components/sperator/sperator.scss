@@ -1,0 +1,29 @@
+.sperator-line-dash {
+    border-style: dashed;
+    width: 50%;
+    color: var(--primary-color-80);
+    margin: 2rem auto;
+
+    &.arrow {
+        position: relative;
+        width: 80%;
+        opacity: 40%;
+
+        &::after {
+            content: "\276F";
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            transform: translate(0, -55%);
+            font-size: 2rem;
+        }
+
+        &.reverse {
+            &::after {
+                content: "\276E";
+                left: 0;
+                transform: translate(-100%, -55%);
+            }
+        }
+    }
+}

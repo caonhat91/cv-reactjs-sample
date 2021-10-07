@@ -12,7 +12,7 @@ ReactDOM.render(
     <Line2 className="line-bg" />
     <Line1 className="line-bg" />
   </React.StrictMode>,
-  document.body
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

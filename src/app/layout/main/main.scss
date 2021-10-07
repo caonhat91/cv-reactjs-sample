@@ -1,0 +1,30 @@
+.main {
+    position: relative;
+    padding: 1.5rem;
+
+    .job-title {
+        margin: 0;
+        width: max-content;
+        font-weight: bold;
+        font-size: calc(1.5rem + 2vmin);
+        line-height: 4rem;
+        border-bottom: 0.25rem solid var(--secondary-color);
+        border-radius: 0.25rem;
+
+        /* Secondary */
+        color: var(--secondary-color);
+    }
+
+    p {
+        margin: 0;
+        font-size: calc(0.2rem + 2vmin);
+        text-align: justify;
+        text-indent: 2rem;
+
+        &.intro {
+            padding: 3rem 0 1.5rem;
+            font-weight: 500;
+            line-height: 26px;
+        }
+    }
+}

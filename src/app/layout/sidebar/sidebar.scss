@@ -1,0 +1,103 @@
+.sidebar {
+    padding-top: 5rem;
+    background: linear-gradient(
+        177.17deg,
+        rgba(255, 255, 255, 0.5) -5.25%,
+        rgba(255, 255, 255, 0.18) 106.09%
+    );
+    border-radius: 3.125rem 0 0 3.125rem;
+
+    .avatar {
+        margin: 0 auto;
+        width: calc(12rem + 2vmin);
+        height: calc(12rem + 2vmin);
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .fullname {
+        margin: 3rem auto 0;
+
+        font-weight: bold;
+        font-size: calc(1rem + 2vmin);
+
+        text-align: center;
+    }
+
+    .skills,
+    .contract {
+        margin: 3rem 0 0;
+
+        .item {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            border-bottom: 1px solid var(--white);
+
+            .icon {
+                padding: 0 0.5rem;
+                max-width: 3.125rem;
+                width: 15%;
+                height: 3.125rem;
+                object-fit: cover;
+            }
+
+            .info {
+                margin-left: 1rem;
+                width: 100%;
+                font-weight: 500;
+                font-size: calc(0.2rem + 2vmin);
+            }
+        }
+    }
+
+    .contract {
+        .item {
+            .icon {
+                g {
+                    fill: var(--primary-color-80);
+                }
+            }
+        }
+    }
+
+    .skills {
+        .item {
+            padding: 1rem;
+
+            .icon .logo {
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .info {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            flex: 1;
+            width: 100%;
+            row-gap: 0.5rem;
+
+            .skill {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    .notes {
+        margin: 3rem 2rem;
+        font-weight: 300;
+        font-size: calc(0.2rem + 2vmin);
+        line-height: 28px;
+        text-align: justify;
+    }
+}
