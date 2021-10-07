@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import { App } from './app/app';
 import reportWebVitals from './reportWebVitals';
+import { ReactComponent as Line1 } from './assets/images/line-1.svg';
+import { ReactComponent as Line2 } from './assets/images/line-2.svg';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Line2 className="line-bg" />
+    <Line1 className="line-bg" />
   </React.StrictMode>,
   document.body
 );

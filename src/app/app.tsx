@@ -1,26 +1,38 @@
 import React, { Component } from 'react';
 import './app.scss';
-import logo from '../assets/images/logo.svg';
+import Avatar from '../assets/images/avatar-chibi.jpg';
+import { ReactComponent as Telephone } from '../assets/images/telephone.svg';
+import { ReactComponent as Email } from '../assets/images/email.svg';
+import { ReactComponent as Address } from '../assets/images/address.svg';
 
 export class App extends Component {
   render() {
     return (
-      <div className="app">
-        <header className="app-header">
-          <img src={logo} className="app-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="app-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <main className="app">
+        <nav className="sidebar">
+          <div className="avatar">
+            <img src={Avatar} alt="" />
+          </div>
+          <div className="fullname">
+            Bùi Văn Áo
+          </div>
+          <ul className="contract">
+            <li className="item">
+              <Telephone className="icon" />
+              <div className="info"></div>
+            </li>
+            <li className="item">
+              <Email className="icon" />
+              <div className="info"></div>
+            </li>
+            <li className="item">
+              <Address className="icon" />
+              <div className="info"></div>
+            </li>
+          </ul>
+        </nav>
+        <aside className="main"></aside>
+      </main>
     );
   }
 }

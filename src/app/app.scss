@@ -1,36 +1,76 @@
 .app {
-    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    background: linear-gradient(
+        157.66deg,
+        rgba(255, 255, 255, 0.55) -3.54%,
+        rgba(255, 255, 255, 0.18) 101.01%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    backdrop-filter: blur(38px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+    z-index: 1;
 
-    .app-logo {
-        height: 40vmin;
-        pointer-events: none;
+    .sidebar {
+        padding-top: 5rem;
+        background: linear-gradient(
+            177.17deg,
+            rgba(255, 255, 255, 0.5) -5.25%,
+            rgba(255, 255, 255, 0.18) 106.09%
+        );
+        border-radius: 50px 0px 0px 50px;
 
-        @media (prefers-reduced-motion: no-preference) {
-            animation: app-logo-spin infinite 20s linear;
+        .avatar {
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
 
-            @keyframes app-logo-spin {
-                from {
-                    transform: rotate(0deg);
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .fullname {
+            margin: 3rem auto 0;
+
+            font-weight: bold;
+            font-size: 28px;
+
+            /* Black */
+
+            color: var(--black);
+            text-align: center;
+        }
+
+        .contract {
+            margin: 0;
+
+            .item {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                column-gap: 1rem;
+
+                .icon {
+                    max-width: 50px;
+                    height: 50px;
                 }
-                to {
-                    transform: rotate(360deg);
+
+                .info {
                 }
             }
         }
     }
 
-    .app-header {
-        background-color: #282c34;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: calc(10px + 2vmin);
-        color: white;
-    }
-
-    .app-link {
-        color: #61dafb;
+    .main {
     }
 }
