@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cv-reactjs-sample/static/css/main.da387a0b.chunk.css",
-    "main.js": "/cv-reactjs-sample/static/js/main.edd6a292.chunk.js",
-    "main.js.map": "/cv-reactjs-sample/static/js/main.edd6a292.chunk.js.map",
+    "main.css": "/cv-reactjs-sample/static/css/main.f3ee6006.chunk.css",
+    "main.js": "/cv-reactjs-sample/static/js/main.ec3711dc.chunk.js",
+    "main.js.map": "/cv-reactjs-sample/static/js/main.ec3711dc.chunk.js.map",
     "runtime-main.js": "/cv-reactjs-sample/static/js/runtime-main.f72ef825.js",
     "runtime-main.js.map": "/cv-reactjs-sample/static/js/runtime-main.f72ef825.js.map",
     "static/js/2.157fa002.chunk.js": "/cv-reactjs-sample/static/js/2.157fa002.chunk.js",
@@ -10,23 +10,23 @@
     "static/js/3.50757cd0.chunk.js": "/cv-reactjs-sample/static/js/3.50757cd0.chunk.js",
     "static/js/3.50757cd0.chunk.js.map": "/cv-reactjs-sample/static/js/3.50757cd0.chunk.js.map",
     "index.html": "/cv-reactjs-sample/index.html",
-    "static/css/main.da387a0b.chunk.css.map": "/cv-reactjs-sample/static/css/main.da387a0b.chunk.css.map",
+    "static/css/main.f3ee6006.chunk.css.map": "/cv-reactjs-sample/static/css/main.f3ee6006.chunk.css.map",
     "static/js/2.157fa002.chunk.js.LICENSE.txt": "/cv-reactjs-sample/static/js/2.157fa002.chunk.js.LICENSE.txt",
-    "static/media/address.f27cf68e.svg": "/cv-reactjs-sample/static/media/address.f27cf68e.svg",
+    "static/media/address.d57d7f2d.svg": "/cv-reactjs-sample/static/media/address.d57d7f2d.svg",
     "static/media/avatar-chibi.ff15bedc.jpg": "/cv-reactjs-sample/static/media/avatar-chibi.ff15bedc.jpg",
     "static/media/css-logo.9f33c557.png": "/cv-reactjs-sample/static/media/css-logo.9f33c557.png",
-    "static/media/email.297680c6.svg": "/cv-reactjs-sample/static/media/email.297680c6.svg",
+    "static/media/email.e0e3b5d8.svg": "/cv-reactjs-sample/static/media/email.e0e3b5d8.svg",
     "static/media/html-logo.a922b77f.png": "/cv-reactjs-sample/static/media/html-logo.a922b77f.png",
     "static/media/java-logo.32872008.png": "/cv-reactjs-sample/static/media/java-logo.32872008.png",
     "static/media/javascript-logo.cf7522f4.png": "/cv-reactjs-sample/static/media/javascript-logo.cf7522f4.png",
-    "static/media/line-1.4a9b4a36.svg": "/cv-reactjs-sample/static/media/line-1.4a9b4a36.svg",
-    "static/media/line-2.3596bd7b.svg": "/cv-reactjs-sample/static/media/line-2.3596bd7b.svg",
-    "static/media/telephone.a4945a73.svg": "/cv-reactjs-sample/static/media/telephone.a4945a73.svg"
+    "static/media/line-1.8d7ef8da.svg": "/cv-reactjs-sample/static/media/line-1.8d7ef8da.svg",
+    "static/media/line-2.bb8e5541.svg": "/cv-reactjs-sample/static/media/line-2.bb8e5541.svg",
+    "static/media/telephone.713589f8.svg": "/cv-reactjs-sample/static/media/telephone.713589f8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f72ef825.js",
     "static/js/2.157fa002.chunk.js",
-    "static/css/main.da387a0b.chunk.css",
-    "static/js/main.edd6a292.chunk.js"
+    "static/css/main.f3ee6006.chunk.css",
+    "static/js/main.ec3711dc.chunk.js"
   ]
 }
